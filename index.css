@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+    /* font-family: 'Poppins', 'Arial', sans-serif; */
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 10px ;
+    height: auto;
+    width: 300px;
+    /* max-width: 250px; */
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formHeading{
+    text-align: center;
+    margin: 5px 0px;
+}
+.formHeading img{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.emailContainer, .passwordContainer, .socialLogo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+ .emailContainer input, .passwordContainer input, button{
+    height: 28px;
+    width: auto;
+    border: 1px solid grey;
+    border-radius: 5px; 
+}
+
+.passwordContainer span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rememberMe{
+    display: flex;
+    margin-left: 8px;
+}
+
+.rememberMe input{
+    margin-right: 5px;
+    height: -25px;
+}
+
+input{
+    padding: 10px;
+}
+
+.logInBtn{
+    padding: 5px;
+    color: white;
+    background-color: rgb(72, 71, 71);
+}
+
+.socialLogo button{
+    background-color: lightgray;
+}
+h5{
+    text-align: center;
+}
+
+a{
+    color: rgb(26, 127, 189);
+    text-decoration: none;
+}
+label, .passwordContainer a{
+    font-size: 15px;
+}
+
+label{
+    margin-left: 8px;
+}
+
+.passwordContainer{
+    position: relative;
+}
+
+.passwordContainer input{
+    padding-right: 30px;
+
+}
+
+#togglePassword{
+    position: absolute;
+    right: 8px;
+    top: 28px;
+    color: #666;
+}
+.or{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+   
+}
+.or p{
+    font-size: 12px;
+    color: grey;
+    margin: 0px 10px;
+    /* padding: 0px 5px; */
+}
+hr{
+    flex: 1;
+    color: grey;
+    /* border: none; */
+}
+
+
+

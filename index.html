@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogInForm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="formHeading">
+                <img src="logo.jpg" alt="">
+                <h3>Welcome back</h3>
+                <h6>Plese enter your details to login.</h6>
+            </div>
+
+            <div class="emailContainer">
+                <label for="Email">Email</label>
+                <input type="email" placeholder="@example.com">
+            </div>
+
+            <div class="passwordContainer">
+                <span>
+                    <label for="Password">Password</label>
+                    <a href="">Forgot password?</a>
+                </span>
+                <input type="password" id="password" placeholder="*********">
+                <i class="fa-solid fa-eye"  id="togglePassword"></i>
+            </div>
+
+            <div class="rememberMe">
+                <input type="checkbox">
+                <h5>Remember me</h5>
+            </div>
+
+            <button class="logInBtn">Login</button>
+
+            <div class="or">
+           <hr><p>OR</p><hr>
+        </div>
+
+
+            <div class="socialLogo">
+                <button><i class="fa-brands fa-apple"></i></button>
+                <button><i class="fa-brands fa-google"></i></button>
+            </div>
+            <h5>Don't heve an account? <a href="">Register</a> </h5>
+
+        </form>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
